@@ -476,7 +476,7 @@ export const links = [
     title: 'Dashboard',
     links: [
       {
-        name: 'laboratory',
+        name: 'genlab',
         icon: <ImLab />,
       },
     ],
@@ -486,7 +486,7 @@ export const links = [
     title: 'Pages',
     links: [
       {
-        name: 'patients',
+        name: 'samples',
         icon: <GiTestTubes />,
       },
       {
@@ -620,7 +620,7 @@ export const earningData = [
     icon: <MdOutlineSupervisorAccount />,
     amount: '39,354',
     percentage: '-4%',
-    title: 'Customers',
+    title: 'Patients',
     iconColor: '#03C9D7',
     iconBg: '#E5FAFB',
     pcColor: 'red-600',
@@ -629,7 +629,7 @@ export const earningData = [
     icon: <BsBoxSeam />,
     amount: '4,396',
     percentage: '+23%',
-    title: 'Products',
+    title: 'Repeats',
     iconColor: 'rgb(255, 244, 229)',
     iconBg: 'rgb(254, 201, 15)',
     pcColor: 'green-600',
@@ -638,7 +638,7 @@ export const earningData = [
     icon: <FiBarChart />,
     amount: '423,39',
     percentage: '+38%',
-    title: 'Sales',
+    title: 'Library Prep',
     iconColor: 'rgb(228, 106, 118)',
     iconBg: 'rgb(255, 244, 229)',
 
@@ -648,7 +648,7 @@ export const earningData = [
     icon: <HiOutlineRefresh />,
     amount: '39,354',
     percentage: '-12%',
-    title: 'Refunds',
+    title: 'Extractions',
     iconColor: 'rgb(0, 194, 146)',
     iconBg: 'rgb(235, 250, 242)',
     pcColor: 'red-600',
@@ -881,13 +881,13 @@ export const ordersGrid = [
   },
   {
     field: 'OrderItems',
-    headerText: 'Item',
+    headerText: 'Sample ID',
     width: '150',
     editType: 'dropdownedit',
     textAlign: 'Center',
   },
   { field: 'CustomerName',
-    headerText: 'Customer Name',
+    headerText: 'Patient ID',
     width: '150',
     textAlign: 'Center',
   },

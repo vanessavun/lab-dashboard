@@ -13,3 +13,4 @@ export { default as Pyramid } from './Charts/Pyramid';
 export { default as Stacked } from './Charts/Stacked';
 export { default as Samples } from './Samples';
 export { default as Genlab } from './Genlab';
+export { default as Orders } from './Orders';
