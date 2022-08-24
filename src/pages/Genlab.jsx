@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BsCurrencyDollar } from 'react-icons/bs';
 import { GoPrimitiveDot } from 'react-icons/go';
 import { Stacked, Pie, Button, SparkLine } from '../components';
@@ -6,6 +6,7 @@ import { earningData, SparklineAreaData, ecomPieChartData } from '../data/dummy'
 import { useStateContext } from '../contexts/ContextProvider';
 
 const Genlab = () => {
+  const { currentColor } = useStateContext();
   return (
     <div className='mt-12'>
       <div className='flex flex-wrap lg:flex-nowrap justify-center'>
@@ -19,7 +20,7 @@ const Genlab = () => {
           <div className='mt-6'>
             <Button
               color='white'
-              bgColor='blue'
+              bgColor={currentColor}
               text='Check'
               borderRadius='10px'
               size='md'
@@ -88,19 +89,19 @@ const Genlab = () => {
                 </div>
                 <div className='mt-5'>
                   <SparkLine 
-                    currentColor='blue'
+                    currentColor={currentColor}
                     id='line-sparkline'
                     type='line'
                     height='160px'
                     width='250px'
                     data={SparklineAreaData}
-                    color='blue'
+                    color={currentColor}
                   />
                 </div>
                 <div className='mt-10'>
                   <Button 
                     color='white'
-                    bgColor='blue'
+                    bgColor={currentColor}
                     text='View flowcells'
                     borderRadius='10px'
                   />

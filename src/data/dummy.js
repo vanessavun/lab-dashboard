@@ -511,10 +511,6 @@ export const links = [
         icon: <BsKanban />,
       },
       {
-        name: 'editor',
-        icon: <FiEdit />,
-      },
-      {
         name: 'color-picker',
         icon: <BiColorFill />,
       },
