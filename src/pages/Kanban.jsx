@@ -12,6 +12,8 @@ const Kanban = () => {
       dataSource={kanbanData}
       cardSettings={{ contentField: 'Summary', headerField: 'Id'}}
       keyField = 'Status'
+      width='auto'
+      height='auto'
     >
       <ColumnsDirective>
         {kanbanGrid.map((item, index) => 
