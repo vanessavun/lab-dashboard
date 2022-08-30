@@ -40,7 +40,7 @@ const Navbar = () => {
     window.addEventListener('resize', handleResize);
     handleResize();
     return () => window.removeEventListener('resize', handleResize);
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
     if(screenSize <= 900) {
@@ -48,7 +48,7 @@ const Navbar = () => {
     } else {
       setActiveMenu(true);
     }
-  }, [screenSize]);
+  }, [screenSize]); // eslint-disable-line react-hooks/exhaustive-deps
   
   return (
     <div className='flex justify-between p-2 md:mx-6 relative'>
