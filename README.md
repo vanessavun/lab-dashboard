@@ -4,7 +4,7 @@ This project was built with React and Tailwind.
 
 ## Vision
 
-I'm a Clinical Laboratory Scientist in the biotech and healthcare industry. At my last biotech laboratory, the workflow was very manual where the techs used a whiteboard and taped on written cards to keep track of their batch status. Inspired from a previous biotech lab's autopipeline dashboard, I started learning how to code to create my own laboratory dashboard. While it is not perfect and fully built out, I finally learn enough skills to have a mock laboratory dashboard that I wish my last job had.
+I'm a Clinical Laboratory Scientist in the biotech and healthcare industry. At my last biotech laboratory, the workflow was very manual where the techs used a whiteboard and handwritten cards to keep track of their batch status. Inspired from a previous biotech lab's autopipeline dashboard, I started learning how to code to create my own laboratory dashboard. While it is not perfect and fully built out the way I want it, I learned enough skills to have a mock laboratory dashboard that I wish my last job had.
 
 ## Lessons learned
 
@@ -30,6 +30,6 @@ Improved and automated kanban page
 
 Expanded individual sample ID page for current status, location, a button option to re-extract/fail/re-test sample, and other needed information based on laboratory needs.
 
-### Credit
+## Credit
 
 [JavaScript Mastery](https://www.youtube.com/watch?v=jx5hdo50a2M&ab_channel=JavaScriptMastery)
