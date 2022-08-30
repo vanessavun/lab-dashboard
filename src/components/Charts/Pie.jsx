@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react';
+import { AccumulationChartComponent, AccumulationSeriesCollectionDirective, AccumulationSeriesDirective, PieSeries, Inject } from '@syncfusion/ej2-react-charts';
+import { pieChartData } from '../../data/dummy';
 
 const Pie = () => {
   return (
-    <div>Pie</div>
+    <AccumulationChartComponent id='charts'>
+      <Inject services={[PieSeries]} />
+      <AccumulationSeriesCollectionDirective>
+        <AccumulationSeriesDirective dataSource={pieChartData} xName='x' yName='y' type='Pie'>
+test
+        </AccumulationSeriesDirective>
+      </AccumulationSeriesCollectionDirective>
+    </AccumulationChartComponent>
   )
 }
 
