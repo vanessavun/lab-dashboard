@@ -1,6 +1,7 @@
 # Laboratory Dashboard
 
 This project was built with React and Tailwind.
+Features: Light and dark mode. Color themes. Responsive site. Navigation bar. Top header with access to profile, notifications, chat, and a cart.
 
 ## Vision
 
